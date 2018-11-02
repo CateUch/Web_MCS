@@ -1,0 +1,18 @@
+.heading {
+	height: 70px;
+	text-align: left, center;
+	line-height: 70px;
+	background-color: lightblue;
+}
+
+.pic {
+	height: 300px;
+	width: 300px;
+	background-image: url(img/img.jpg);
+	background-size: 300px 300px;
+}
+.links {
+	color: white;
+	height: 50px;
+	background-color: lightblue;
+}
