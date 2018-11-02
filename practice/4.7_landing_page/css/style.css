@@ -1,18 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Noto+Sans+KR');
+
 .heading {
 	height: 70px;
-	text-align: left, center;
+	text-align: left;
 	line-height: 70px;
-	background-color: lightblue;
+	background-color: #29627A;
+	color: #F4EEDD;
+	text-shadow: 0px 0px 2px #1B1009;
 }
 
 .pic {
-	height: 300px;
-	width: 300px;
-	background-image: url(img/img.jpg);
-	background-size: 300px 300px;
+	height: 540px;
+	background-image: url(../img/big_img.jpg);
+	background-size: cover;
+	
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	color: black;
 }
-.links {
+
+.navigation {
 	color: white;
 	height: 50px;
-	background-color: lightblue;
+	background-color: #29627A;
+}
+.links a{
+	text-decoration: none;
+	color: #F0F4FA;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.info{
+	font-size: 24px;
+}
+.contacts{
+	height: 70px;
+	text-align: left;
+	line-height: 70px;
+	background-color: #29627A;
+	color: #F4EEDD;
+	font-size: 35px;
+	text-shadow: 0px 0px 2px #1B1009;
 }
