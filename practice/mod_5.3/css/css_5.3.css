@@ -1,11 +1,11 @@
-@import: url(reset.css);
+@import url(reset.css);
 
 .page {
   font-family: sans-serif;
 }
 
 a {
-  color: gray;
+  color: white;
 }
 .header, footer {
   height: 50px;
@@ -23,7 +23,7 @@ a {
 }
 
 .logo {
-  color: gray;
+  color: white;
   font-size: 20px;
   display: inline-block;
   width: 200px;
