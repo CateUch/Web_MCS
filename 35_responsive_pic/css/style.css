@@ -1,0 +1,22 @@
+@import url(reset.css);
+
+.columns{
+	width: 80vw;
+	margin: auto;
+	min-height: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	background-color: grey;
+
+}
+.column{
+	width: calc((100% - 40px)/3);
+	background-color: olive;
+}
+.img{
+	background-image: url(../img/1827.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 30%;
+}

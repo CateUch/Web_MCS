@@ -1,0 +1,85 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+
+
+.top {
+	height: 70px;
+	width: 1000px;
+	color: #F4EEDD;
+	background-color: seagreen;
+	line-height: 70px;
+	margin: auto;
+}
+
+.top h1 {
+	vertical-align: middle;
+	text-transform: uppercase;
+	margin-left: 20px;
+	font-size: 2em;
+	text-shadow: 0 0 8px black;
+	letter-spacing: 2px;
+}
+
+.title{
+	font-size: 2em;
+	line-height: normal;
+	font-weight: bold; 
+}
+
+p {
+	font-size: 30px;
+	line-height: normal;
+	padding-left: 10px;
+}
+
+.containing {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 1000px;
+	margin: auto;
+	background-color: rgb(248, 248, 255);
+	display: flex;
+	justify-content: space-between;
+	
+}
+.column {
+	background-color: beige;
+	min-height: 50px;
+	box-shadow: 0px 0px 5px grey;
+	border-radius: 10px;
+	width: calc((100% - 100px)/3);
+}
+.pic1{
+	background-image: url(../img/916.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 100%;
+}
+.pic2{
+	background-image: url(../img/917.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 100%;
+}
+.pic3{
+	background-image: url(../img/918.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 100%;
+}
+
+.bottom {
+	height: 70px;
+	width: 1000px;
+	color: #F4EEDD;
+	/*font-size: 25px;*/
+	background-color: seagreen;
+	
+	line-height: 70px;
+	margin: auto;
+}
+.copyright{
+	vertical-align: middle;
+	margin-left: 20px;
+	font-size: 1.5em;
+}
