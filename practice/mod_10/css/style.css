@@ -60,6 +60,7 @@ textarea[name="message"]{
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
+	align-items: center;
 }
 select {
 	font-size: 20px;
