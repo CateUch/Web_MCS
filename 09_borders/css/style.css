@@ -1,9 +1,0 @@
-.bordered{
-	width: 500px;
-	height: 500px;
-	border-top: 5px dashed navy;
-	border-left: 5px solid blue;
-	border-right: 5px double purple;
-	border-bottom: 5px dotted grey;
-	border-radius: 40%;
-}
