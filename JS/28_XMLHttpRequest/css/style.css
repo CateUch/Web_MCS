@@ -1,0 +1,17 @@
+@import url(reset.css);
+
+body{
+	background-color: lightgrey;
+}
+.bigBlock{
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+form, div{
+  color: white;
+  }
+ 
+ 
