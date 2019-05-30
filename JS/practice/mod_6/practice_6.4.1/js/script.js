@@ -25,6 +25,10 @@ form.onsubmit = function(e) {
 		console.log(xhr.status + " " + xhr.statusText);
 	} else { 
 		let DATA = JSON.parse(xhr.responseText);
+		console.log(xhr.responseText);
+		console.log(DATA);
+		console.log(DATA.main.temp-273);
+		console.log((DATA.main.temp-273) > 15);
 		tempresult.innerHTML =('Температура в г. ' +city+ ': '+ Math.floor(DATA.main.temp-273) + '°C');
 		windresult.innerHTML =('Скорость ветра: '+ (DATA.wind.speed) + ' м/с');
 	}}
