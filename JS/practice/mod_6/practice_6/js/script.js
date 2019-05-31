@@ -46,20 +46,18 @@ let money = form.elements.money.value;
 
 let Someone = new Person(name);
 console.log(Someone);
-
-
+	
 	if (cat == 'yes'){
 		Someone.hasCat();
 	} if (rest == 'yes'){
 		Someone.hasRest();
 	}	if (money == 'yes') {
 		Someone.hasMoney();
-	};
+	}
 	Someone.isSunny();
 
 	//console.log('happiness = ' + Someone.happiness);
 	//console.log(Someone.happiness == 4);
-
 
 	if (Someone.happiness == 4) {
 		divIcon.innerHTML = '😁';
@@ -68,6 +66,5 @@ console.log(Someone);
 	} if (Someone.happiness < 2) {
 		divIcon.innerHTML = '☹️';
 	}
-
 	divName.innerHTML = name;
 }
