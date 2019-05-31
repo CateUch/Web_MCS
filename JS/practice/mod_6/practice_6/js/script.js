@@ -46,8 +46,7 @@ let money = form.elements.money.value;
 
 let Someone = new Person(name);
 console.log(Someone);
-
-
+	
 	if (cat == 'yes'){
 		Someone.hasCat();
 	} if (rest == 'yes'){
@@ -60,7 +59,6 @@ console.log(Someone);
 	//console.log('happiness = ' + Someone.happiness);
 	//console.log(Someone.happiness == 4);
 
-
 	if (Someone.happiness == 4) {
 		divIcon.innerHTML = '😁';
 	} if (Someone.happiness == 2 || Someone.happiness == 3) {
@@ -68,6 +66,5 @@ console.log(Someone);
 	} if (Someone.happiness < 2) {
 		divIcon.innerHTML = '☹️';
 	}
-
 	divName.innerHTML = name;
 }
