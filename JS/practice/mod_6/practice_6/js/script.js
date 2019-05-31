@@ -54,7 +54,7 @@ console.log(Someone);
 		Someone.hasRest();
 	}	if (money == 'yes') {
 		Someone.hasMoney();
-	};
+	}
 	Someone.isSunny();
 
 	//console.log('happiness = ' + Someone.happiness);
