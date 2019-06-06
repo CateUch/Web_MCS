@@ -61,7 +61,7 @@ console.log(Someone);
 
 	if (Someone.happiness == 4) {
 		divIcon.innerHTML = '😁';
-	} if (Someone.happiness == 2 || Someone.happiness == 3) {
+	} if (Someone.happiness == 2 || 3) {
 		divIcon.innerHTML = '😐';
 	} if (Someone.happiness < 2) {
 		divIcon.innerHTML = '☹️';
